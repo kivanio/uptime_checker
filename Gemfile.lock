@@ -1,7 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.4.0)
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
     aitch (0.5.0)
       nokogiri (>= 1.6.0)
     axiom-types (0.1.1)
@@ -50,6 +51,7 @@ GEM
       mini_portile2 (~> 2.0.0.rc2)
     noti (1.0.2)
       json
+    public_suffix (4.0.6)
     redis (3.2.2)
     simple_oauth (0.3.1)
     telegram_bot (0.0.5)
